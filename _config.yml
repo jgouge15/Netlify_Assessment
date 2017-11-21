@@ -1,14 +1,50 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Answers That Make Sense
+email: joseph.gouge@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  This site is here to provide you with with not only an understanding of whether I 
+  can do the job, but also an understanding of who I am.  Hopefully when you are done
+  reading my responses and evaluating my work you will have a much better understanding 
+  of how I think and what I can do.  Please feel free to let me know if I can provide you 
+  with anymore information to demonstrate exactly what kind of person you will be hiring 
+  if you were to choose me.
+permalink: Answers That Make Sense
+baseurl:  # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Joseph Gouge # add your name
+author-pic: joseph-gouge.jpg
+about-author: My name is Joseph Gouge. I am a Systems Administrator in IBM's Cloud Video divison. 
+# Contact links
+email: joseph.gouge@gmail.com # Add your Email address
+phone: 770-500-8519 # Add your Phone number
+website: # Add your website, do not add http://
+linkedin: Joseph Gouge # Add your Linkedin handle
+github: jgouge15 # Add your Github handle
+twitter:  # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
