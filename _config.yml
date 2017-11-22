@@ -43,7 +43,6 @@ paginate_path: /page:num/
 markdown: kramdown
 gems:
   - jekyll-paginate
-  - jekyll-feed
   - jekyll-sitemap
 
 include: [_pages]
